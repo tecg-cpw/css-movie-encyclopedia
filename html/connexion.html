@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta name="description" content="24FPS, L'encyclopédie du cinéma propose centaines d'informations, d'anecdotes, de portraits d'acteurs et de  réalisateurs sont organisés de façon graphique et ludique.">
+        <meta name="keywords" content="encyclopédie, cinéma, films, acteurs, actrices, fiche technique, filmographie">
+        <meta name="author" content="F.P.">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            24FPS - L'encyclopédie du cinéma
+        </title>
+    </head>
+    <body class="connexion">
+        <header class="header">
+            <h1 class="header__title">
+                Connectez-vous
+            </h1>
+        </header>
+        <main>
+            <form action="./categories.html" method="post" class="form">
+                <div class="input">
+                    <label class="input__label" for="email">
+                        Email
+                    </label>
+                    <input class="input__field input__field--mail" type="email" name="email" id="email">
+                </div>
+                <div class="input input--password">
+                    <label class="input__label" for="pw">
+                        Password
+                    </label>
+                    <input class="input__field input__field--pw" type="password" name="password" id="pw">
+                    <a href="#" class="input__forgottenPassword simpleLink">
+                        Mot de passe oublié ?
+                    </a>
+                </div>
+                <button type="submit" class="button">
+                    Connexion
+                </button>
+            </form>
+            <section class="socialLogin">
+                <h2 class="socialLogin__title">
+                    Autres modes de connexion
+                </h2>
+                <a href="#" class="button buttonIcon buttonIcon--google">
+                    Continuer avec Google
+                </a>
+                <a href="#" class="button buttonIcon buttonIcon--facebook">
+                    Continuer avec Facebook
+                </a>
+                <a class="simpleLink" href="./html/accueil.html">
+                    S'inscrire
+                </a>
+            </section>
+        </main>
+    </body>
+</html>
